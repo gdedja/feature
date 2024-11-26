@@ -1,0 +1,13 @@
+<div class="page-width">
+<div class="product_cards_main">
+{% render "product-card.liquid" %}
+</div>
+</div>
+{% style %}
+  .product_cards_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+{% endstyle %} 
